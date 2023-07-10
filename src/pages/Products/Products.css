@@ -1,0 +1,11 @@
+.productsHeader {
+    padding: 20px 200px;
+    background-color: #4AA366;
+}
+.nossoscafes{
+    color: var(--base-subtitle, white);
+font-size: 32px !important;
+font-style: normal;
+font-weight: 800;
+line-height: 130%;
+}

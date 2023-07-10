@@ -1,0 +1,116 @@
+.cartTile {
+    color: #111;
+    font-weight: 500;
+    width: 100%;
+    font-size: 18px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #175644;
+}
+
+.cartInfo {
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-between;
+    margin: 16px 0px;
+}
+
+.cartButtonRemove {
+    color: var(--base-text, #574F4D);
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: uppercase;
+display: flex;
+height: 32px;
+padding: 0px 8px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+border: none;
+border-radius: 6px;
+background: var(--base-button, #E6E5E5);
+}
+
+.cartSubtitle {
+    color: #D1D1D1;
+    font-weight: normal;
+    font-size: 14px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cartList {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 6px 44px;
+background: var(--base-card, #4AA366);
+}
+
+.cartBox {
+
+    display: "flex";
+    flex-direction: "column";
+    justify-content: 'space-between';
+    margin-left: 16px;
+    width: 100%;
+    color: white;
+
+}
+
+.buyButton {
+    padding: 16px;
+    height: 4 0px;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.price{
+    color: white;
+text-align: right;
+
+font-size: 16px !important;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+}
+.cafes{
+    color: white;
+width: 45%;
+font-size: 18px !important;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+}
+
+.qty{
+    margin-right: 10px;
+padding: 4px 12px;
+}
+
+.deleteQty{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.total{
+    color: white;
+}

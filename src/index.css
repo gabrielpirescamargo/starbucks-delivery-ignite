@@ -1,0 +1,18 @@
+html,
+body,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  margin-top: 80px;
+
+  background-color: #fff;
+
+}
+
+html * {
+  font-size: 1em !important;
+  font-family: 'Inter', sans-serif;
+}

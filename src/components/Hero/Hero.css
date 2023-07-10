@@ -1,0 +1,32 @@
+.hero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 120px 200px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.heroTitle{
+    color: var(--base-title, #272221);
+    width: 650px;
+font-size: 48px !important;
+font-style: normal;
+font-weight: 800;
+line-height: 130%;
+display: flex;
+flex-direction: column;
+align-self: stretch;
+}
+
+.heroSubtitle{
+    color: var(--base-subtitle, #403937);
+font-size: 20px !important;
+width: 500px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+display: flex;
+flex-direction: column;
+align-self: stretch;
+}

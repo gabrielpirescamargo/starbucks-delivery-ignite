@@ -1,0 +1,70 @@
+.Cart {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 140px;
+    justify-content: space-around;
+
+}
+.pedido{
+    display: flex;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+align-self: stretch;
+border-radius: 6px;
+background: var(--base-card, #F4F4F4);
+}
+
+.form{
+    width: 45%;
+    height: 100%;
+}
+
+input{
+    border-radius: 4px;
+border: 1px solid var(--base-button, #E6E5E5);
+background: var(--base-input, #EDEDED);
+
+padding: 12px;
+align-items: center;
+gap: 4px;
+align-self: stretch;
+}
+
+.rua{
+    width: 100%;
+}
+
+.numero{
+    width: 20%;
+}
+.uf{
+    width: 12%;
+}
+
+.enderecoTitle{
+    color: var(--base-subtitle, #403937);
+font-size: 16px !important;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+
+.enderecoSubtitle{
+    color: var(--base-text, #574F4D);
+
+font-size: 14px !important;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+
+.complete{
+    color: var(--base-subtitle, #403937);
+
+font-size: 18px !important;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+}
